@@ -35,6 +35,7 @@ interface ICryptoSwapMintCallback {
 
 /**
  * @title CryptoSwapPool
+ * @author Prakash Yadav
  * @notice A single trading pool for a specific token pair and fee tier.
  *
  * ═══════════════════════════════════════════════════════

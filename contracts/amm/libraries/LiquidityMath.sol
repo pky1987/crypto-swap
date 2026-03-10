@@ -3,6 +3,7 @@ pragma solidity ^0.8.24;
 
 /**
  * @title LiquidityMath
+ * @author Prakash Yadav
  * @notice Functions for safely adding and subtracting liquidity.
  *
  * 📚 LEARNING: WHAT IS LIQUIDITY?

@@ -3,6 +3,7 @@ pragma solidity ^0.8.24;
 
 /**
  * @title ICryptoSwapFactory
+ * @author Prakash Yadav
  * @notice Interface for the factory contract that creates new trading pools.
  *
  * WHAT IS A FACTORY?

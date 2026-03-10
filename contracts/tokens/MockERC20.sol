@@ -6,6 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 /**
  * @title MockERC20
+ * @author Prakash Yadav
  * @notice A simple ERC20 token for testing swaps and liquidity on the AMM.
  *         In production, you'd interact with real tokens. This contract is
  *         used for local development and testnet deployments.

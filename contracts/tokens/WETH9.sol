@@ -3,6 +3,7 @@ pragma solidity ^0.8.24;
 
 /**
  * @title WETH9 — Wrapped Ether
+ * @author Prakash Yadav
  * @notice This wraps native ETH into an ERC20 token (WETH).
  *
  * WHY DO WE NEED THIS?

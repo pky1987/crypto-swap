@@ -3,6 +3,7 @@ pragma solidity ^0.8.24;
 
 /**
  * @title SqrtPriceMath
+ * @author Prakash Yadav
  * @notice Functions for computing swap amounts and next sqrt prices.
  *
  * ═══════════════════════════════════════════════════════

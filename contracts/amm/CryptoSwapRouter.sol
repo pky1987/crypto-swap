@@ -11,6 +11,7 @@ import "./libraries/TickMath.sol";
 
 /**
  * @title CryptoSwapRouter
+ * @author Prakash Yadav
  * @notice User-facing contract for swaps and liquidity operations.
  *
  * ═══════════════════════════════════════════════════════

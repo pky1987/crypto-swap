@@ -3,6 +3,7 @@ pragma solidity ^0.8.24;
 
 /**
  * @title ICryptoSwapPool
+ *  @author Prakash Yadav
  * @notice Interface for individual trading pool contracts.
  *
  * WHAT IS A POOL?

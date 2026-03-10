@@ -3,6 +3,7 @@ pragma solidity ^0.8.24;
 
 /**
  * @title TickMath
+ * @author Prakash Yadav
  * @notice Computes sqrt price for ticks and ticks from sqrt prices.
  *
  * ═══════════════════════════════════════════════════════
