@@ -1,0 +1,121 @@
+# ═══════════════════════════════════════════════════════
+#  🔒 SECURITY — Private Keys & Secrets
+# ═══════════════════════════════════════════════════════
+.env
+.env.*
+.env.local
+.env.development
+.env.staging
+.env.production
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+secrets.json
+secrets/
+private-keys/
+mnemonic.txt
+mnemonic
+.secret
+
+# ═══════════════════════════════════════════════════════
+#  📦 Dependencies
+# ═══════════════════════════════════════════════════════
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ═══════════════════════════════════════════════════════
+#  🔨 Hardhat / Smart Contract Build Artifacts
+# ═══════════════════════════════════════════════════════
+/cache
+/artifacts
+/typechain
+/typechain-types
+/coverage
+/coverage.json
+/crytic-export
+/flattened
+*.flattened.sol
+
+# Hardhat Ignition - Ignore ALL deployment history
+ignition/deployments/
+
+# ═══════════════════════════════════════════════════════
+#  🚀 Deployment & Addresses
+# ═══════════════════════════════════════════════════════
+deployed-addresses.json
+deployments/
+broadcast/
+.openzeppelin/
+
+
+# ═══════════════════════════════════════════════════════
+#  🖥️ Backend Build & Logs
+# ═══════════════════════════════════════════════════════
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ═══════════════════════════════════════════════════════
+#  🎨 Frontend / Next.js
+# ═══════════════════════════════════════════════════════
+.next/
+out/
+.vercel
+.turbo
+
+# ═══════════════════════════════════════════════════════
+#  🗄️ Database
+# ═══════════════════════════════════════════════════════
+*.sqlite
+*.sqlite3
+*.db
+pgdata/
+redis-data/
+
+# ═══════════════════════════════════════════════════════
+#  🐳 Docker
+# ═══════════════════════════════════════════════════════
+docker-compose.override.yml
+
+# ═══════════════════════════════════════════════════════
+#  🖥️ OS & IDE Files
+# ═══════════════════════════════════════════════════════
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/settings.json
+.idea/
+*.iml
+
+# ═══════════════════════════════════════════════════════
+#  🔐 Wallet & Crypto Security Files
+# ═══════════════════════════════════════════════════════
+*.wallet
+*.keyfile
+wallet.json
+keystore/
+.openzeppelin/
+.openzeppelin/unknown-*.json
+
+# ═══════════════════════════════════════════════════════
+#  📊 Testing & Reports
+# ═══════════════════════════════════════════════════════
+gasReporterOutput.json
+gas-report.txt
+test-results/
+junit.xml
+artifacts/
+cache/
+typechain-types/
