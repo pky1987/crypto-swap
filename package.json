@@ -1,0 +1,53 @@
+{
+  "name": "crypto-swap",
+  "version": "1.0.0",
+  "description": "Production-Grade Hybrid Cryptocurrency Exchange — AMM + Order Book",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:factory": "hardhat test test/amm/Factory.test.ts",
+    "test:pool": "hardhat test test/amm/Pool.test.ts",
+    "test:router": "hardhat test test/amm/Router.test.ts",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "coverage": "hardhat coverage",
+    "node": "hardhat node",
+    "deploy:tokens": "hardhat run scripts/deploy-tokens.ts",
+    "deploy:tokens:local": "hardhat run scripts/deploy-tokens.ts --network localhost",
+    "deploy:amm": "hardhat run scripts/deploy-amm.ts",
+    "deploy:amm:local": "hardhat run scripts/deploy-amm.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy-amm.ts --network sepolia",
+    "clean": "hardhat clean",
+    "lint:sol": "solhint 'contracts/**/*.sol'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pky1987/crypto-swap.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "exchange",
+    "amm",
+    "uniswap",
+    "defi",
+    "solidity",
+    "ethereum"
+  ],
+  "author": "pky1987",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pky1987/crypto-swap/issues"
+  },
+  "homepage": "https://github.com/pky1987/crypto-swap#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.28.6"
+  },
+  "dependencies": {
+    "@uniswap/v3-core": "^1.0.1",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "@uniswap/v3-staker": "^1.0.2"
+  }
+}
